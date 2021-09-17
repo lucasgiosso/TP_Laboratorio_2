@@ -176,6 +176,7 @@ namespace MiCalculadora
             this.lstOperaciones.Name = "lstOperaciones";
             this.lstOperaciones.Size = new System.Drawing.Size(226, 272);
             this.lstOperaciones.TabIndex = 8;
+            this.lstOperaciones.TabStop = false;
             // 
             // lblResultado
             // 
@@ -188,7 +189,7 @@ namespace MiCalculadora
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Padding = new System.Windows.Forms.Padding(0, 0, 11, 0);
             this.lblResultado.Size = new System.Drawing.Size(333, 103);
-            this.lblResultado.TabIndex = 3;
+            this.lblResultado.TabIndex = 9;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmCalculadora
