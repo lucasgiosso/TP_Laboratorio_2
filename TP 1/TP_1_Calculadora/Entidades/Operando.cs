@@ -8,7 +8,13 @@ namespace Entidades
 {
     public class Operando
     {
+        #region Atributos
+
         private double numero;
+
+        #endregion
+
+        #region Propiedades
 
         /// <summary>
         /// Setea el número previa validación.
@@ -20,6 +26,10 @@ namespace Entidades
                 this.numero = ValidarOperando(value);
             }
         }
+
+        #endregion
+
+        #region Constructores
 
         /// <summary>
         /// Constructor por defecto, asigna el numero 0.
@@ -44,6 +54,10 @@ namespace Entidades
         {
             this.Numero = strNumero;
         }
+
+        #endregion
+
+        #region Métodos
 
         /// <summary>
         /// Validar que el valor recibido sea un número.
@@ -159,6 +173,10 @@ namespace Entidades
 
         }
 
+        #endregion
+
+        #region Operadores
+
         /// <summary>
         /// Sobrecarga del operador de sumar
         /// </summary>
@@ -208,5 +226,7 @@ namespace Entidades
         {
             return (n1.numero * n2.numero);
         }
+
+        #endregion
     }
 }

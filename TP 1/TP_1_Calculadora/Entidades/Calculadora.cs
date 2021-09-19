@@ -4,6 +4,8 @@ namespace Entidades
 {
     public static class Calculadora
     {
+        #region Métodos
+
         /// <summary>
         ///  Realiza la operacion entre 2 números
         /// </summary>
@@ -54,5 +56,8 @@ namespace Entidades
             }
             return operador;
         }
+
+        #endregion
+
     }
 }
