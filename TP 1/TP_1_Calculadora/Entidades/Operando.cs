@@ -13,7 +13,7 @@ namespace Entidades
         /// <summary>
         /// Setea el número previa validación.
         /// </summary>
-        public string Numero
+        private string Numero
         {
             set
             {
