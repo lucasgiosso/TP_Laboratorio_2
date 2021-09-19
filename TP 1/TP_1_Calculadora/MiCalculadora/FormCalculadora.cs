@@ -11,14 +11,14 @@ using Entidades;
 
 namespace MiCalculadora
 {
-    public partial class FrmCalculadora : Form
+    public partial class FormCalculadora : Form
     {
         List<string> listaOperaciones = new List<string>();
 
         /// <summary>
         /// Inicializa el formulario.
         /// </summary>
-        public FrmCalculadora()
+        public FormCalculadora()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void FrmCalculadora_Load(object sender, EventArgs e)
+        private void FormCalculadora_Load(object sender, EventArgs e)
         {
             cmbOperador.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbOperador.Items.Add(' ');
@@ -226,7 +226,7 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void FrmCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("¿Está seguro de querer salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {

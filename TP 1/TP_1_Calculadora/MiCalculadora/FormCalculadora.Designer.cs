@@ -1,7 +1,7 @@
 ﻿
 namespace MiCalculadora
 {
-    partial class FrmCalculadora
+    partial class FormCalculadora
     {
         /// <summary>
         ///  Required designer variable.
@@ -195,7 +195,7 @@ namespace MiCalculadora
             this.lblResultado.TabIndex = 9;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FrmCalculadora
+            // FormCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -216,11 +216,11 @@ namespace MiCalculadora
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmCalculadora";
+            this.Name = "FormCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Lucas Diaz Giosso del curso 2ºD";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCalculadora_FormClosing);
-            this.Load += new System.EventHandler(this.FrmCalculadora_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCalculadora_FormClosing);
+            this.Load += new System.EventHandler(this.FormCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
