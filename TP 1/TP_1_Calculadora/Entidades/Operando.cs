@@ -24,9 +24,9 @@ namespace Entidades
         /// <summary>
         /// Constructor por defecto, asigna el numero 0.
         /// </summary>
-        public Operando()
+        public Operando() : this(0)
         {
-            this.numero = 0;
+
         }
         /// <summary>
         /// Constructor de tipo double que setea el valor enviado.
